@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    transform: translateX(38%);
+}
+.keys {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+input {
+    height: 3rem;
+    width: 250px;
+    border: none;
+    background-color: hsl(50, 1%, 20%);
+}
+button {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: large;
+    font-weight: 800;
+}
